@@ -1,0 +1,19 @@
+{
+  "name": "language-nimrod",
+  "version": "0.0.1",
+  "main": "./lib/nimrod",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "Nimrod language support in Atom",
+  "homepage": "https://github.com/zah/nimrod.atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zah/nimrod.atom.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zah/nimrod.atom/issues"
+  }
+}
