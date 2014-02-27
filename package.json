@@ -1,6 +1,6 @@
 {
   "name": "language-nimrod",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./lib/nimrod",
   "engines": {
     "atom": "*",
