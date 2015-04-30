@@ -1,8 +1,8 @@
-'.source.nimrod':
+'.source.nim':
   editor:
     foldEndPattern: '^\\s*"""\\s*$'
     commentStart: '# '
-    
+
     increaseIndentPattern: '(?x)
       ^\\s*(
         ((if|when|elif|else|except|finally|for|try|while|of)\\b.*:)|
