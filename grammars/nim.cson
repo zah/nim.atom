@@ -40,7 +40,7 @@ patterns: [
     match: "\\b(range|array|seq|tuple|natural|set|ref|ptr)\\b"
   }
   {
-    comment: "A nimrod procedure or method"
+    comment: "A Nim procedure or method"
     patterns: [
       captures:
         1:
