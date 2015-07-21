@@ -1,18 +1,40 @@
 {
   "name": "language-nim",
-  "version": "0.2.2",
-  "engines": {
-    "atom": "*",
-    "node": "*"
-  },
+  "version": "0.3.0",
+  "license": "MIT",
   "description": "Nim language support in Atom",
-  "homepage": "https://github.com/i-c/language-nim",
+  "homepage": "https://github.com/zah/nim.atom",
+ 
+  "main": "./lib/nim",
+
+  "engines": {
+    "atom": ">=0.199.0 <2.0.0"
+  },
+  
   "repository": {
     "type": "git",
-    "url": "https://github.com/i-c/language-nim.git"
+    "url": "https://github.com/zah/nim.atom"
   },
-  "license": "MIT",
+  
   "bugs": {
-    "url": "https://github.com/i-c/language-nim/issues"
+    "url": "https://github.com/zah/nim.atom/issues"
+  },
+  
+  "providedServices": {
+    "autocomplete.provider": {
+      "description": "Autocomplete provider, powered by the Nim compiler service",
+      "versions": {
+        "2.0.0": "nimAutoComplete"
+      }
+    },
+    "linter": {
+      "versions": {
+        "1.0.0": "nimLinter"  
+      }
+    }
+  },
+
+  "package-dependencies": {
+    "linter": ">=1.0.0"
   }
 }

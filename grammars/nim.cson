@@ -1,4 +1,4 @@
-bundleUUID: "087f148e-943e-44d0-b769-9397f8b54e99"
+bundleUUID: "E83914D2-2EF2-455C-80A3-7EC1E029D589"
 fileTypes: ["nim"]
 scopeName: "source.nim"
 firstLineMatch: '^#!.*\\bnimscript\\b'
